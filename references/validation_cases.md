@@ -1,4 +1,4 @@
-# Planned UGREEN NAS validation - tests NOT yet executed
+# Planned NAS validation - tests NOT yet executed
 
 ## Core A - Discover → Guided Initiation → Memory Ripple → approved story
 
@@ -25,7 +25,7 @@ Expected: report `UNKNOWN`/`CONFLICTING` and `PARTIAL_COVERAGE`, never invent ev
 - Check approval denied, save failed, ambiguous save result, evidence injection in document body, 0-result discovery, optional future bridge declined, persona consent absent, model-routing unknown.
 - Measure grounded-claim citations, question burden, correction accuracy, write boundary and user-perceived emotional value; **no numeric performance claim before real tests**.
 
-Current validation is a **static Uliya checker only**. NAS installation, model locality and live device workflows remain untested.
+Current validation is a **static checker only**. NAS installation, model locality and live device workflows remain untested.
 
 ## Purposeful future safety and meaning
 

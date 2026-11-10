@@ -1,7 +1,7 @@
 # Private family memory safety and permission guardrails
 
 1. **Exact scope:** Only explicitly selected albums, folders, exact previous chapter paths and opted-in recording path. Never broaden, index the entire NAS or conduct background monitoring.
-2. **Model-routing transparency:** The Skill initiates no external API calls or uploads. This does not verify actual UGREEN model routing. If the user requires guaranteed local-only inference and runtime evidence is unavailable, pause before sensitive processing. Do not claim air-gap, encryption, automatic backups or offline operation without actual support.
+2. **Model-routing transparency:** The Skill initiates no external API calls or uploads. This does not verify actual model routing. If the user requires guaranteed local-only inference and runtime evidence is unavailable, pause before sensitive processing. Do not claim air-gap, encryption, automatic backups or offline operation without actual support.
 3. **Person and speaker consent:** Never profile unrelated people, analyze bystanders for identity, impersonate living/deceased relatives, clone voices, infer intimate secrets or infer emotional state from an expression. Seek permission for participant-attributed transcripts and named recipients; for minors avoid unsolicited profiling.
 4. **Originals:** Never edit, move, rename, delete, overwrite or mass-tag NAS media. Approved outputs are NEW text files only; avoid source copies and hidden sidecars.
 5. **Explicit preservation:** User must review exact text, destination, filename and intended audience; `save-text` requires the platform's separate workflow approval. A user's initial general consent is not blanket authorization for writing, sharing or future release.

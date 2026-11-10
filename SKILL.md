@@ -25,7 +25,7 @@ Primary experiences:
 
 # Generation-time capability evidence
 
-Verified against the **user-provided official UGREEN Uliya v0.7.3** `data/capability-catalog.json` (`catalogVersion`: `2.0.0`). Each CLI has one registered expert. The parent Skill delegates; only experts select and execute their own supported CLI Actions and enforce their actual runtime permissions.
+Verified against the **user-provided official platform kit v0.7.3** `data/capability-catalog.json` (`catalogVersion`: `2.0.0`). Each CLI has one registered expert. The parent Skill delegates; only experts select and execute their own supported CLI Actions and enforce their actual runtime permissions.
 
 - `ug-photo` → `photo-agent`
 - `ug-filesystem` → `file-agent`
@@ -139,6 +139,6 @@ Partial source coverage is always visible. If `save-text` fails, the chapter rem
 
 Private means **least-privilege NAS source access and user control**, not a promise of air-gapped inference. No external API calls are initiated by this Skill, but actual model routing is unverified until NAS execution. No third-party sharing, automatic surveillance, unsolicited child profiling, undocumented voice cloning, fake deceased-person dialogue, raw media upload, background search, write without approval, or source alteration. See [privacy_guardrails.md](references/privacy_guardrails.md).
 
-UGREEN phone/photo import, optional one-button story capture, family display, smart camera highlights, occasion reminders, time capsules and future-message delivery are **future ecosystem concepts only** and have **no implemented or claimed CLI bridge in this Skill**. See [ecosystem_vision.md](references/ecosystem_vision.md).
+Phone/photo import, optional one-button story capture, family display, smart camera highlights, occasion reminders, time capsules and future-message delivery are **future ecosystem concepts only** and have **no implemented or claimed CLI bridge in this Skill**. See [ecosystem_vision.md](references/ecosystem_vision.md).
 
 Development AI assistance, source URLs, third-party inventory and licensing status are disclosed in [disclosures.md](references/disclosures.md). This ZIP contains only the root `SKILL.md` and its directly linked `references/*.md`. No script, executable, model, manifest or real personal data is bundled.

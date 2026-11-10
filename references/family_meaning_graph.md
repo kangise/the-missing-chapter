@@ -1,7 +1,7 @@
 # Family Meaning Graph - evidence-grounded session context
 
 ## Purpose and runtime boundary
-The Family Meaning Graph is **an explanatory reasoning scaffold reconstructed in the present Uliya conversation**, not a durable graph database, invisible background scanner, biometric identity system or independently executing service. Its purpose is to answer *what makes this occasion uniquely meaningful?* without pretending to read people's minds.
+The Family Meaning Graph is **an explanatory reasoning scaffold reconstructed in the present conversation**, not a durable graph database, invisible background scanner, biometric identity system or independently executing service. Its purpose is to answer *what makes this occasion uniquely meaningful?* without pretending to read people's minds.
 
 ## Nodes
 - `PERSON`: user-described role/name as volunteered; never identify from a face alone. A person not present is not automatically an authorized participant.

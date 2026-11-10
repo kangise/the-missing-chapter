@@ -1,6 +1,6 @@
 # In-session memory and intention ledger - conceptual only
 
-This is a structured **in-conversation** representation, not a permanent UGREEN database, automated NAS graph or promised cross-session agent memory.
+This is a structured **in-conversation** representation, not a permanent database, automated NAS graph or promised cross-session agent memory.
 
 Record types:
 

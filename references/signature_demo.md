@@ -1,6 +1,6 @@
 # Signature demo - “The Sundays You Gave Me” (fictional test fixture)
 
-Purpose: one **memorable, feasible, evidence-led** demonstration for Round 2 testing, not a fabricated real-customer story. Round 1 does not require a video.
+Purpose: one **memorable, feasible, evidence-led** demonstration for live testing, not a fabricated real-customer story.
 
 ## Authorized synthetic test assets
 - A fictional family photo showing two people by a bicycle. At demo time select only the test album and present the actual returned file path/date confidence; **do not claim identities from the image**.
@@ -25,7 +25,7 @@ Closing thought: **“Some gifts are not things we buy. They are moments we make
 ## Required on-NAS evidence for a real video
 Capture authentic agent results and valid file references, show the selected album scope, user correction, meaningful option, decision, write approval, and completed/failed status. A storyboard alone is not runtime proof. Do not make a before/after video implying successful NAS execution until tested.
 
-## Judges' criteria demonstrated
+## Qualities demonstrated
 - **User value:** concrete gift/experience; one next step.
 - **Differentiation:** source → user meaning → chosen action (not photo search alone).
 - **Technical quality:** exact scope, provenance, error/status and approval.

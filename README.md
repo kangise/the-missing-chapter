@@ -2,7 +2,7 @@
 
 > **Don't just remember the moments that mattered. Make more of them.**
 
-*The Missing Chapter* is a consent-first AI Skill for the **UGREEN AI NAS** (UGOS / Uliya platform). It helps families turn trusted memories into personal gestures, shared experiences, and new moments worth remembering. It was built for the **UGREEN AI NAS Hackathon 2026 (Round 1)**.
+*The Missing Chapter* is a consent-first AI Skill for **AI-powered NAS agent platforms**. It helps families turn trusted memories into personal gestures, shared experiences, and new moments worth remembering.
 
 ## The problem
 
@@ -45,7 +45,7 @@ The same approach works for graduations, anniversaries, reunions, gratitude, or 
 - **Memory-to-Experience Engine**: turns a confirmed memory into a **Moment Card** with concrete options a person can actually choose.
 - **Family Memory Flywheel**: voluntary only. After a real event, the user's account becomes a new chapter that can inspire the next one.
 
-## UGREEN AI NAS capabilities used
+## NAS capabilities used
 
 The parent Skill only delegates to registered expert agents. Each expert selects and runs its own supported CLI actions.
 
@@ -56,7 +56,7 @@ The parent Skill only delegates to registered expert agents. Each expert selects
 | `document-agent` | `ug-document` | `qa`, `extract` | Extract dates, places, and clues from approved files |
 | `knowledge-agent` | `ug-knowledge` | `audio-transcription`, `save-text` | Transcribe one consented recording, or save approved text |
 
-Verified against UGREEN Uliya Skill Kit v0.7.3 and Capability Catalog 2.0.0.
+Checked against the platform capability catalog v2.0.0.
 
 ## Trust and privacy principles
 
@@ -75,26 +75,24 @@ No automatic reminders, purchases, guest messages, calendar events, media genera
 ```
 .
 ├── SKILL.md                      # The Skill: orchestration, modes, delegation, approvals
-├── references/                   # Linked design references
-│   ├── everyday_care.md          # High-frequency occasion entry point
-│   ├── memory_to_experience.md   # Moment Card format
-│   ├── family_meaning_graph.md   # In-session graph semantics
-│   ├── family_flywheel.md        # Voluntary follow-up loop
-│   ├── future_chapter.md         # Unwritten Chapter design
-│   ├── moment_scenarios.md       # Birthday, graduation, anniversary playbooks
-│   ├── signature_demo.md         # Fictional two-minute demo
-│   ├── privacy_guardrails.md     # Consent and safety rules
-│   ├── evidence_policy.md        # Evidence labels
-│   ├── validation_cases.md       # Test cases
-│   └── ...                       # story format, memory record, disclosures, etc.
-└── docs/
-    └── UGREEN_Proposal.pdf       # Hackathon Round 1 proposal
+└── references/                   # Linked design references
+    ├── everyday_care.md          # High-frequency occasion entry point
+    ├── memory_to_experience.md   # Moment Card format
+    ├── family_meaning_graph.md   # In-session graph semantics
+    ├── family_flywheel.md        # Voluntary follow-up loop
+    ├── future_chapter.md         # Unwritten Chapter design
+    ├── moment_scenarios.md       # Birthday, graduation, anniversary playbooks
+    ├── signature_demo.md         # Fictional two-minute demo
+    ├── privacy_guardrails.md     # Consent and safety rules
+    ├── evidence_policy.md        # Evidence labels
+    ├── validation_cases.md       # Test cases
+    └── ...                       # story format, memory record, disclosures, etc.
 ```
 
 ## Status
 
 - Authored workflows, Moment Card format, graph semantics, occasion playbooks, consent controls, and error handling are complete as Markdown references.
-- The official UGREEN static check **passed**.
+- The platform's static check **passed**.
 - **Not yet tested:** real NAS installation, runtime model routing, and cross-session persistence. Local model use is preferred when verified, and this Skill initiates no external service calls.
 
 ## Validation plan
@@ -107,8 +105,7 @@ No automatic reminders, purchases, guest messages, calendar events, media genera
 
 - AI drafting assistance: OpenAI ChatGPT. See [`references/disclosures.md`](references/disclosures.md).
 - No bundled SDKs, binaries, third-party media, model weights, or real personal data. All family examples are fictional.
-- UGREEN UGOS / Uliya components remain subject to UGREEN platform terms and are not redistributed here.
-- Sources: [Devpost rules](https://ugreenhackathon.devpost.com/rules) and the [UGREEN hackathon starter kit](https://ai.ugreen.com/pages/hackathon-starter-kit).
+- The host NAS platform's components remain subject to its own terms and are not redistributed here.
 
 ## License
 
